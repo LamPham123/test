@@ -12,7 +12,7 @@
 >
 	<PageHero
 		title="About Me"
-		description="Software Engineer | Computer Science Student at University of Washington"
+		description="Software Engineer | Computer Science at University of Washington"
 	/>
 
 	<div class="container mx-auto px-4 pb-32 max-w-4xl">
@@ -24,7 +24,7 @@
 			<div class="flex-1">
 				<h2 class="text-3xl font-bold mb-4">Hi, I'm Lam Pham</h2>
 				<p class="text-lg text-[var(--color-muted)] mb-4">
-					I'm a Computer Science student at the University of Washington Seattle. <br>I'm broadly interested in distributed systems, artificial intelligence, and full-stack development. but often times you can find me reading, eating, playing jazz piano and guitar and posting on BeReal!
+					I'm a third year Computer Science student at the University of Washington Seattle. <br>I'm broadly interested in distributed systems, artificial intelligence, and full-stack development. but often times you can find me reading, eating, playing jazz piano and guitar and posting on BeReal!
 				</p>
 				<div class="flex gap-4 flex-wrap">
 					<a href="mailto:lamtpham705@gmail.com" class="inline-flex items-center gap-2 px-4 py-2 bg-[var(--color-primary)] rounded-lg hover:brightness-110 transition">
