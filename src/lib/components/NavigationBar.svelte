@@ -79,6 +79,13 @@
           About
         </a>
 
+        <a
+          href="/resume"
+          class="py-2 px-3 font-medium text-sm transition-colors duration-200 {isActive('/resume', currentPath) ? 'text-[var(--color-primary)]' : 'text-[var(--color-foreground)] hover:text-[var(--color-primary)]'}"
+        >
+          Resume
+        </a>
+
         {#each navbarItems as item}
           {#if item.name !== 'legal' && item.name !== 'docs'}
             <a
@@ -130,6 +137,20 @@
           class="block px-3 py-2 rounded-md text-base font-medium {isActive('/', currentPath) ? 'bg-surface text-white' : 'text-slate-300 hover:bg-surface hover:text-white'}"
         >
           Home
+        </a>
+
+        <a
+          href="/about"
+          class="block px-3 py-2 rounded-md text-base font-medium {isActive('/about', currentPath) ? 'bg-surface text-white' : 'text-slate-300 hover:bg-surface hover:text-white'}"
+        >
+          About
+        </a>
+
+        <a
+          href="/resume"
+          class="block px-3 py-2 rounded-md text-base font-medium {isActive('/resume', currentPath) ? 'bg-surface text-white' : 'text-slate-300 hover:bg-surface hover:text-white'}"
+        >
+          Resume
         </a>
 
         {#each navbarItems as item}

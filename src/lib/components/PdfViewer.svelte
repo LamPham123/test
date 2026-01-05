@@ -9,8 +9,8 @@
   let containerElement: HTMLDivElement;
   let isFullscreen = false;
 
-  // Build PDF URL with parameters to hide browser's built-in toolbar and fit width
-  $: pdfSrc = `${src}#toolbar=0&navpanes=0&view=FitH`;
+  // Build PDF URL with parameters to hide browser's built-in toolbar and fit page
+  $: pdfSrc = `${src}#toolbar=0&navpanes=0&view=Fit`;
 
   function toggleFullscreen() {
     if (!document.fullscreenElement) {
