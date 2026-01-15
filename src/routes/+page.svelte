@@ -8,42 +8,62 @@
 		{
 			metadata: {
 				title: 'Dr Wifi',
-				description: '2nd Place at Dubhacks 2025 (T-Mobile) - AI-powered network diagnostic assistant',
-				date: '2025-10-01',
+				description: 'AI-powered network assistant - 2nd Place at Dubhacks 2025 (T-Mobile)',
+				date: '2025-10-18',
 				author: 'Lam Pham',
-				thumbnail: '/images/drwifi.png' // Add your project screenshot
+				thumbnail: '/images/drwifi.png'
 			},
-			url: '/projects/dr-wifi'
+			url: '/projects/1-dr-wifi'
 		},
 		{
 			metadata: {
 				title: 'CalPal.ai',
 				description: 'AI calendar assistant with agentic workflow for natural language scheduling',
-				date: '2025-10-01',
+				date: '2025-11-01',
 				author: 'Lam Pham',
-				// thumbnail: '/images/calpalai.png'
+				thumbnail: '/images/calpal.png'
 			},
-			url: '/projects/calpal'
+			url: '/projects/2-calpal'
 		},
 		{
 			metadata: {
 				title: 'Data Sonification Toolkit',
-				description: 'Accessible data visualization through sound - Research project at UW Interactive Data Lab',
-				date: '2025-01-01',
+				description: 'Accessible data visualization through sound',
+				date: '2024-01-05',
 				author: 'Lam Pham',
 				thumbnail: '/images/erie.png'
 			},
-			url: '/projects/data-sonification'
+			url: '/projects/3-data-sonification'
 		},
 		{
 			metadata: {
-				title: 'VEYM Members Portal',
-				description: 'Full-stack member management system serving 5,000+ users',
+				title: 'Facial Age Classification',
+				description: 'Deep learning-based age verification using CNN architectures',
+				date: '2024-06-01',
+				author: 'Lam Pham',
+				thumbnail: '/images/facepng.png'
+			},
+			url: '/projects/4-face-png'
+		},
+		{
+			metadata: {
+				title: 'PrayerBox',
+				description: 'Digital prayer request and community support platform',
+				date: '2024-11-01',
+				author: 'Lam Pham',
+				thumbnail: '/images/prayerbox.png'
+			},
+			url: '/projects/5-prayerbox'
+		},
+		{
+			metadata: {
+				title: 'VEYM IT Team',
+				description: 'Supporting the Vietnamese Eucharistic Youth Movement through technology',
 				date: '2024-03-01',
 				author: 'Lam Pham',
 				thumbnail: '/images/tntt.png'
 			},
-			url: '/projects/veym-portal'
+			url: '/projects/6-veym-portal'
 		}
 	];
 </script>

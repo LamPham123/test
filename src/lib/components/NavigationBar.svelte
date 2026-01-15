@@ -48,18 +48,20 @@
   <div class="container mx-auto px-4">
     <div class="flex items-center justify-between h-16">
       <div class="flex items-center">
-        <a href="/" class="flex items-center space-x-2">
-          <!-- Logo icon - custom SVG similar to BotGauge -->
-          <div class="text-[var(--color-primary)] w-8 h-8">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
-              <path d="M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M12 8L12 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <a href="/" class="flex items-center">
+          <div class="text-[var(--color-primary)]" style="width: 80px; height: 42px;">
+            <svg viewBox="0 0 80 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Slanted L -->
+              <path d="M20 6 L14 32 L30 32" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- Slanted P -->
+              <path d="M44 32 L38 6" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+              <path d="M38 6 L48 6 Q58 8, 56 16 Q54 24, 44 24 L40 20"
+                    stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- Speed lines for dynamic effect -->
+              <line x1="5" y1="12" x2="10" y2="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+              <line x1="3" y1="18" x2="9" y2="18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
             </svg>
           </div>
-          <span class="font-bold text-xl">
-            <span class="text-[var(--color-primary)]">Statue</span>SSG
-          </span>
         </a>
       </div>
       

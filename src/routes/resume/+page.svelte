@@ -2,6 +2,10 @@
   import { PdfViewer } from '$lib';
 </script>
 
+<svelte:head>
+	<title>Resume</title>
+</svelte:head>
+
 <section class="mb-16">
 <div class="min-h-screen bg-canvas-default py-8 px-4">
   <div class="w-full max-w-4xl mx-auto">

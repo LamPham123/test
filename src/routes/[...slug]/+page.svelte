@@ -8,6 +8,7 @@
 		DocsContent,
 		BlogPostLayout
 	} from 'statue-ssg';
+	import ProjectLayout from '$lib/components/ProjectLayout.svelte';
 
 	let { data } = $props();
 
@@ -15,6 +16,7 @@
 	let isBlogContent = $derived(
 		data.content?.directory === 'blog' || data.content?.directory?.startsWith('blog/')
 	);
+	let isProjectContent = $derived(data.content?.metadata?.isProject === true);
 	let activePath = $derived($page.url.pathname);
 	let title = $derived(data.content ? data.content.metadata.title : 'Content Not Found');
 
@@ -89,6 +91,21 @@
 			authorAvatar={data.content.metadata.authorAvatar}
 			thumbnail={data.content.metadata.thumbnail}
 			content={data.content.content}
+			backLink={getBackLink(data.content.directory)}
+			backLinkText={getBackLinkText(data.content.directory)}
+		/>
+	{:else if isProjectContent}
+		<ProjectLayout
+			title={data.content.metadata.title}
+			organization={data.content.metadata.organization}
+			award={data.content.metadata.award}
+			thumbnail={data.content.metadata.thumbnail}
+			technologies={data.content.metadata.technologies}
+			content={data.content.content}
+			learnings={data.content.metadata.learnings}
+			pdfEmbed={data.content.metadata.pdfEmbed}
+			pdfPaper={data.content.metadata.pdfPaper}
+			pdfPoster={data.content.metadata.pdfPoster}
 			backLink={getBackLink(data.content.directory)}
 			backLinkText={getBackLinkText(data.content.directory)}
 		/>

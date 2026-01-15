@@ -1,13 +1,14 @@
 ---
 title: breathe
-description: a choke, laugh, smile, and reminder to slow down
+# description: a choke, laugh, smile, and reminder to slow down
+description: coming soon!
 date: 2025-11-13
 author: Lam Pham
 category: thoughts
 thumbnail: /images/blog.png
 order: 1
 ---
-
+<!-- 
 Today marks day 3 in my journey of learning how to swim. The morning was a slow one. I opened my eyes, saw 6:38am, set a 2 hour and 17 minute timer, and closed my eyes once again. The timer went off, I opened my phone, checked some lame emails, read some introspective fancy shmancy quotes and stories on substack, and finally got out of bed. I packed my swim trunks, swim cap, goggles, and began my trek to Denny Hall.
 
 I started with my lime scooter. The camera inside the app wasn’t working, so I input the scooter name into my phone and rode off towards campus as I was already around 15 minutes late to my 50 minute class. The break on this scooter was also lopsided, meaning the right side of the break was constantly scraping against the floor and I was terrified that could be launched off at any moment. At the end of my ride, the camera was still not working, and as a result, I lost around 4 more dollars than I should’ve to idle minutes on my lime. I submit a complaint on the app and quickly rushed to class.
@@ -36,4 +37,5 @@ However, I found that Seattle Fall is unexplainably beautiful. The leaves this y
 
 Maybe, what slowing down means is that there is no rush to find the answer. I could ask myself more and more questions that I definitely don’t have the answer to, or I can just sit and experience everything around. Maybe I’ll find that me and my surroundings have a little bit more in common than I thought we did.
 
-
+ -->
+coming soon!
